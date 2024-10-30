@@ -1,0 +1,151 @@
+.card-box {
+    position: relative;
+    width: 60%;
+    background-color: #fff;
+    padding: 0.7em 2em 1em;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.inline-wrapper {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.form-cjExport .button {
+	display: inline-block;
+	padding: 0px 50px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.form-cjExport select {
+	display: block;
+	padding: 2px 30px 2px 0;
+}
+
+.form-cjExport label {
+	font-style: italic;
+}
+
+
+.cj-form label {
+	display: inline-block;
+	font-style: italic;
+	margin: 5px 0;
+}
+
+.cj-form input, 
+.cj-form select {
+	display: block;
+}
+
+.email-group {
+	display: none;
+	margin: 10px 0;
+}
+
+.email-group input {
+	width: 50%;
+	padding: 7px;
+}
+
+.btn-success {
+	border: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #2ecc71 !important;
+    transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+    -webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+}
+
+.input-error {
+	color: #e74c3c !important;
+   
+}
+
+.input-error input {
+	 border-color: #e74c3c !important;
+}
+
+.save-file-link.show {
+	display: block;
+}
+.save-file-link {
+	display: none;
+    margin-top: 15px;
+    background: #48c9b0;
+    width: 20%;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.save-file-link span {
+	vertical-align: middle;
+    margin-right: 5px;
+}
+
+.cj-loader {
+	display: inline-block;
+    margin-left: 30px;
+    vertical-align: bottom;
+}
+
+.cj-loader .cj-spinner {
+	display: none;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.cj-loader .cj-spinner > div {
+  background-color: #0073aa;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.cj-loader .cj-spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.cj-loader .cj-spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.cj-loader .cj-spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.cj-loader .cj-spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
